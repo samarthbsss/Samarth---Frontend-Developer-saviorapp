@@ -8,11 +8,11 @@ const TokenomicsComponent = () => {
         // <div className="relative text-white bg-cover w-full h-auto" style={{ backgroundImage: `url(/src/components/Documents/logomain.png)` }}>
 
         <div
-            className="relative text-white p-5 w-full bg-black"
+            className="relative text-white p-5 w-full h-full bg-black"
             style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
 
-            <div className="p-5 md:p-10">
+            <div className="p-5">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Tokenomics</h2>
 
                 <div className="flex flex-col md:flex-row items-center md:justify-center">
@@ -24,13 +24,12 @@ const TokenomicsComponent = () => {
                         <p>Decimals: 18</p>
                     </div>
 
-                    {/* Right Half - Image/Logo */}
                     <div className="flex justify-center items-center w-full md:w-1/2">
                         <img src={logoImage} alt="Saviour Logo" className="max-w-xs md:max-w-sm" />
                     </div>
                 </div>
             </div>
-            {/* </div> */}
+
         </div>
     );
 };
