@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header';
 import SecondComponent from './components/secoundcomponent';
 import IDOEventComponent from './components/idoevent';
+import TokenomicsComponent from './components/token';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <SecondComponent />
       <IDOEventComponent />
+      <TokenomicsComponent />
     </div>
   );
 }

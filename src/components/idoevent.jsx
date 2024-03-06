@@ -1,13 +1,17 @@
 import React from 'react';
+import Reactangle from './Documents/Rectangle1.png'
 
 const IDOEventComponent = () => {
     return (
-        <div className="bg-black text-white p-5 md:p-10">
+        <div className="bg-black text-white"
+
+            style={{ backgroundImage: `url(${Reactangle}})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+        >
             <h2 className="text-4xl font-extrabold mb-10 text-center text-red-600 uppercase tracking-widest">Participate in our IDO Event!</h2>
 
-            <div className="md:flex md:justify-between md:items-start">
+            < div className="md:flex md:justify-between md:items-start" >
 
-                <div className="md:w-1/2 bg-gray-900 bg-opacity-80 p-8 rounded-lg mb-5 md:mr-5">
+                <div className="md:w-1/2 p-8 rounded-lg mb-5 md:mr-5">
                     <p className="mb-5">During our IDO event, you will gain early access to our revolutionary ecosystem, designed to empower everyone to share wealth and achieve success.</p>
 
                     <div className="bg-red-800 bg-opacity-90 p-4 rounded-lg mb-5">
@@ -27,7 +31,7 @@ const IDOEventComponent = () => {
                     </div>
                 </div>
 
-                <div className="md:w-1/2 bg-gray-900 bg-opacity-80 p-8 rounded-lg mb-5 md:ml-5">
+                <div className="md:w-1/2 p-8 rounded-lg mb-5 md:ml-5">
                     <div className="bg-red-800 bg-opacity-90 p-4 rounded-lg mb-5">
                         <div className="mb-5 text-5xl font-bold text-center text-red-300">
                             {/* Timer goes here */}
@@ -49,8 +53,8 @@ const IDOEventComponent = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 
