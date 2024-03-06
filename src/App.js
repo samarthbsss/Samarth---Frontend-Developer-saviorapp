@@ -5,6 +5,7 @@ import SecondComponent from './components/secoundcomponent';
 import IDOEventComponent from './components/idoevent';
 import TokenomicsComponent from './components/token';
 import Roadmap from './components/roadmap';
+import FAQComponent from './components/faq';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <IDOEventComponent />
       <TokenomicsComponent />
       <Roadmap />
+      <FAQComponent />
 
     </div>
   );
