@@ -55,7 +55,7 @@ const IDOEventComponent = () => {
         </div>
 
         <div className="md:w-1/2 p-8 rounded-lg mb-5 md:ml-5">
-          <div className="bg-red-800 bg-opacity-90 p-4 rounded-lg mb-5">
+          <div className="border border-red-500 bg-transparent bg-opacity-50 p-4 rounded-lg mb-5">
             <div className="mb-5 text-5xl font-bold text-center text-red-300">
               {/* Timer goes here */}
               00:00
@@ -66,27 +66,27 @@ const IDOEventComponent = () => {
             <p>Raised - $34,56,56,764/$40,00,00,000</p>
           </div>
 
-          <div className="bg-red-800 bg-opacity-90 p-4 rounded-lg">
+          <div className="border border-red-500 bg-transparent bg-opacity-50 p-4 rounded-lg">
             <input
               type="text"
               placeholder="Enter the amount (BNB)"
-              className="w-full text-black p-2 rounded mb-3"
+              className="w-full text-black p-2 rounded mb-3 border border-red-500"
             />
             <input
               type="text"
               placeholder="Minimum Quantity to Buy"
-              className="w-full text-black p-2 rounded mb-3"
+              className="w-full text-black p-2 rounded mb-3 border border-red-500"
             />
             <input
               type="text"
               placeholder="Maximum Quantity of Tokens"
-              className="w-full text-black p-2 rounded mb-3"
+              className="w-full text-black p-2 rounded mb-3 border border-red-500"
             />
             <div className="flex gap-3">
-              <button className="flex-grow bg-red-600 px-4 py-2 rounded hover:bg-red-700 transition duration-300">
+              <button className="flex-grow bg-gradient-to-br from-red-700 via-red-600 to-orange-500 px-4 py-2 rounded hover:bg-red-700 transition duration-300">
                 Buy
               </button>
-              <button className="flex-grow bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition duration-300">
+              <button className="flex-grow bg-gradient-to-br from-red-700 via-red-600 to-orange-500 px-4 py-2 rounded hover:bg-green-700 transition duration-300">
                 Claim Drop
               </button>
             </div>
