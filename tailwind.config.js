@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
-      heading: ["Shojumaru", "cursive"],
+      heading: ["Shojumaru"],
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
